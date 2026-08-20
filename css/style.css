@@ -391,17 +391,25 @@ svg { width: 18px; height: 18px; flex-shrink: 0; }
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .work-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.work-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
 .work-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
   background: var(--accent-soft);
+  color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
-  margin-bottom: 16px;
 }
+.work-icon svg { width: 20px; height: 20px; }
 .work-tag {
   display: inline-block;
   font-size: 0.75rem;
@@ -412,7 +420,6 @@ svg { width: 18px; height: 18px; flex-shrink: 0; }
   background: var(--accent-soft);
   padding: 5px 12px;
   border-radius: 100px;
-  margin-bottom: 16px;
 }
 .work-card h3 { font-size: 1.2rem; margin-bottom: 16px; line-height: 1.35; }
 .work-context { font-size: 0.92rem; margin-bottom: 12px; }
