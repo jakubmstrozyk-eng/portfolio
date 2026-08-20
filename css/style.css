@@ -400,16 +400,15 @@ svg { width: 18px; height: 18px; flex-shrink: 0; }
 }
 .work-icon {
   flex-shrink: 0;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 10px;
   background: var(--accent-soft);
-  color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.1rem;
 }
-.work-icon svg { width: 20px; height: 20px; }
 .work-tag {
   display: inline-block;
   font-size: 0.75rem;
